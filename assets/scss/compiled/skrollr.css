@@ -1,0 +1,81 @@
+header.header-fade-top {
+  background-color: rgba(255, 255, 255, 0);
+  -skrollr-animation-name: header-fade-top;
+}
+header.header-fade-top nav:not(.subnav) ul li a:not(:hover) {
+  color: #fff;
+}
+@-skrollr-keyframes header-fade-top {
+  100-start {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  100-start nav:not(.subnav) ul li a:not(:hover) {
+    color: #fff;
+  }
+  200-start {
+    background-color: #fff;
+  }
+  200-start nav:not(.subnav) ul li a:not(:hover) {
+    color: #000;
+  }
+}
+.parallax {
+  position: relative;
+  overflow: hidden;
+}
+.parallax .background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -skrollr-animation-name: parallax-background;
+}
+.parallax .foreground {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  -skrollr-animation-name: parallax-foreground;
+}
+@-skrollr-keyframes parallax-background {
+  bottom-top {
+    transform: translateY(-500px);
+  }
+  top-bottom {
+    transform: translateY(500px);
+  }
+}
+@-skrollr-keyframes parallax-foreground {
+  bottom-top {
+    transform: translateY(50px);
+  }
+  top-bottom {
+    transform: translateY(90px);
+  }
+}
+.fade-bottom {
+  -skrollr-animation-name: parallax-fade-bottom;
+}
+.fade-top {
+  -skrollr-animation-name: parallax-fade-top;
+}
+@-skrollr-keyframes parallax-fade-bottom {
+  bottom-top {
+    opacity: 0;
+  }
+  center-top {
+    opacity: 1;
+  }
+}
+@-skrollr-keyframes parallax-fade-top {
+  center-bottom {
+    opacity: 1;
+  }
+  top-bottom {
+    opacity: 0;
+  }
+}

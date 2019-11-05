@@ -1,0 +1,9 @@
+
+/* addons/shared_addons/modules/dealer_locator/css/dealer-locator.css */
+
+#dealer-results table,
+#certified-showroom-results
+table{width:100%}#first-heading{margin-bottom:15px}#body-content{line-height:1.5em}.icon .dealer-status-logo{width:90px;margin-right:10px}.round-image{margin:0
+auto 25px auto;height:250px;width:250px;border-radius:50%}#_pix_id{display:none}#sticky-form{position:fixed;top:50px;left:0;width:100%;z-index:999}#footercta{display:none}body .table.text-white *:not(a:hover){color:#fff}p a.text-light-grey{color:#aaa7a9}a.text-light-grey{color:#e2e0e0}a.text-light-grey:hover,p a.text-light-grey:hover{color:#fff}@media(max-width:1200px){.aspect.four-to-one.background{min-height:400px}}@media(max-width:600px){.aspect.four-to-one.background{min-height:500px}}span.square{height:14px;width:14px;margin-right:8px;border-radius:2px;display:inline-block}.square.diamond{background-color:#0071CE}.square.platinum{background-color:#808283}.square.gold{background-color:#F1932D}.square.authorized{background-color:#C32032}.c4down{cursor:default}.c4down:hover::before{color:rgba(255,255,255,0.4)}.dealer-cs-light-grey{color:#b3b3b5}.address-links{margin-left:5px}.address-links,
+.address-links
+a{font-style:italic;font-size:12px;color:#797979}.address-links a:hover{color:#929395}.no-events-text{color:#797979 !important}

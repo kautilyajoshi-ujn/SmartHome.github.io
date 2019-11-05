@@ -1,0 +1,10 @@
+
+/* addons/shared_addons/modules/solutions/css/solutions.css */
+
+#openbutton{transform:rotate(-90deg);background-color:#fff;color:#8a2432;padding:16px
+20px;border:none;cursor:pointer;opacity:0.9;position:fixed;top:280px;right:-180px;width:400px;z-index:1100}.form-popup{display:block;position:fixed;top:105px;right:0px;max-width:400px;padding:10px;background-color:white;z-index:1100;transform:translateX(100%);transition:transform 0.2s}.form-popup.active{transform:translateX(0px)}@media (max-width: 768px){#openbutton{transform:initial;top:auto;right:initial;bottom:-10px;width:100%;z-index:1100}.form-popup{top:auto;bottom:0px;max-width:initial;transform:translateY(100%);transition:transform 0.2s;z-index:1100}.form-popup.active{transform:translateY(0px)}}circle{display:block;padding:0;margin:0;background:transparent !important}circle
+div.icon{display:inline-block;height:75px;width:75px;text-align:center;background-repeat:no-repeat;background-size:contain;background-color:#939598;border-radius:50%;transition:0.1s}circle:hover
+div.icon{background-color:#c32032}.icon-name{text-transform:uppercase;font-size:10px}.product.card{height:225px;width:225px;margin:0
+auto;border:1px
+solid #fff;background-color:rgba(255, 255, 255, 1);border-radius:50%;transition:ease-out .3s;padding:40px}.product.card:hover{}.product.card
+img{position:absolute;top:16%;left:16%;z-index:4}.product-name{padding-top:12.5px;margin-bottom:25px}a.product{color:rgba(255,255,255,.9)}a.product:hover{color:rgba(255, 255, 255, 1)}

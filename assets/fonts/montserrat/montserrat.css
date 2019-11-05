@@ -1,0 +1,45 @@
+/* Monserrat */
+
+/* 200 light */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  src: url('Montserrat-Light.html');
+}
+
+/* 400 regular */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Montserrat-Regular.html');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  src: url('Montserrat-Italic.html');
+}
+
+/* 700 bold */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('Montserrat-Bold.html');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 700;
+  src: url('Montserrat-BoldItalic.html');
+}
+
+/* 900 black */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url('Montserrat-Black.html');
+}
